@@ -1,0 +1,121 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0 45px;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../images/body.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h1{
+    color: #fff;
+    font-family: 1.5rem;
+    font-style: initial;
+    margin-right: 20px;
+    width: 60%;
+    display: inline-block;
+}
+
+form#login{
+    display: initial;
+    width: 40%;
+}
+
+header input{
+    border-radius: 3px;
+    padding: 5px 3px;
+    font-size: 100%;
+    border-style: none;
+}
+
+input[type=submit]{
+    background-color: #008f39;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    border-style: none;
+}
+
+input[type=submit]:hover{
+    background-color: #008f05;
+    transition-duration: all 0.3s;
+}
+
+button{
+    background-color: #008f39;
+    color: aliceblue;
+    font-size: 1.1rem;
+    padding: 10px 30px;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color: #008f01;
+    transition: all 2s;
+}
+
+h2{
+    color: #fff;
+    text-align: center;
+    font-size: 2.1rem;
+}
+
+#register{
+    width: 40%;
+    margin: auto;
+}
+
+#register input[type=text], #register input[type=email], #register input[type=password]{
+    display: block;
+    border-radius: 3px;
+    padding: 10px 8px;
+    font-size: 100%;
+    border-style: none;
+    margin: 10px 0px;
+}
+
+label {
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+select {
+    color: #fff;
+    background-color: #9c9c9c;
+    font-size: 1rem;
+    padding: 4px 7px;
+    cursor: pointer;
+}
+
+span{
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+input[type=checkbox]{
+    cursor: pointer;
+}
+
+small{
+    color: aliceblue;
+}
+
+.terminos{
+    color: #9c9c9c;
+    font-size: 0.9rem;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.terminos:hover{
+    text-decoration: underline;
+}
